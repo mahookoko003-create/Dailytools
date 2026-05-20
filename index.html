@@ -1,83 +1,117 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Daily Tools</title>
+  <title>DailyTools</title>
 
-  <style>
-
-    body{
-      margin:0;
-      font-family:Arial;
-      background:#0f172a;
-      color:white;
-    }
-
-    .header{
-      padding:20px;
-      text-align:center;
-      font-size:30px;
-      font-weight:bold;
-    }
-
-    .container{
-      padding:20px;
-      display:grid;
-      grid-template-columns:1fr;
-      gap:20px;
-    }
-
-    .card{
-      background:#1e293b;
-      padding:20px;
-      border-radius:20px;
-    }
-
-    .card h2{
-      margin-top:0;
-    }
-
-    .btn{
-      background:#3b82f6;
-      color:white;
-      border:none;
-      padding:10px 20px;
-      border-radius:10px;
-      font-size:16px;
-    }
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="header">
-    🚀 Daily Tools
+  <!-- NAVBAR -->
+
+  <div class="navbar">
+
+    <div class="logo">
+      ⚡ DailyTools
+    </div>
+
+    <div class="nav-links">
+
+      <a href="index.html">
+        Home
+      </a>
+
+      <a href="tools/password.html">
+        Password
+      </a>
+
+      <a href="#">
+        AI Tools
+      </a>
+
+    </div>
+
   </div>
+
+
+  <!-- HERO -->
+
+  <div class="hero">
+
+    <h1>
+      All Your Daily Tools
+    </h1>
+
+    <p>
+      Fast. Clean. Useful.
+    </p>
+
+  </div>
+
+
+  <!-- TOOLS -->
 
   <div class="container">
 
     <div class="card">
-      <h2>QR Code Tool</h2>
-      <p>Yakında eklenecek.</p>
-      <button class="btn">Kullan</button>
+
+      <h2>
+        🔐 Password Generator
+      </h2>
+
+      <p>
+        Create secure passwords instantly.
+      </p>
+
+      <a href="tools/password.html">
+        <button class="btn">
+          Open Tool
+        </button>
+      </a>
+
     </div>
 
-    <div class="card">
-      <h2>Password Generator</h2>
-      <p>Yakında eklenecek.</p>
-      <button class="btn">Kullan</button>
-    </div>
 
     <div class="card">
-      <h2>AI Bio Generator</h2>
-      <p>Yakında eklenecek.</p>
-      <button class="btn">Kullan</button>
+
+      <h2>
+        🤖 AI Bio Generator
+      </h2>
+
+      <p>
+        Generate cool bios for social media.
+      </p>
+
+      <button class="btn">
+        Coming Soon
+      </button>
+
+    </div>
+
+
+    <div class="card">
+
+      <h2>
+        ⚡ QR Code Tool
+      </h2>
+
+      <p>
+        Generate QR codes in seconds.
+      </p>
+
+      <button class="btn">
+        Coming Soon
+      </button>
+
     </div>
 
   </div>
 
 </body>
+
 </html>
